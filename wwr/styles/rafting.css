@@ -12,12 +12,7 @@
     --navigation-hover-link-color: #cdd1de;
     --navigation-hover-background-color: #001a62;
 }
-body {
-    font-family: var(--paragraph-font);
-    max-width: 860px;
-    padding: 20px;
-    background-color: #677cb5;
-}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -98,7 +93,7 @@ footer img {
     width: 25px;
 }
 figure img {
-    height: 150px;
+    height: 100px;
 }
 
 .hero {
