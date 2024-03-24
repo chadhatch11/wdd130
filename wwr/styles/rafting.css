@@ -25,11 +25,19 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent-color);
+    display: grid;
+	grid-template-columns: 25% 1fr;
+}
+header > img {
+    display: grid;
+    justify-self: center;
 }
 nav {
     background-color: var(--navigation-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 nav a {
     display: block;
@@ -49,6 +57,48 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: #cdd1de;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+footer p {
+    text-align: center;
+    grid-column-start: 2;
+    color: #000;
+}
+footer div {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    grid-column-start:3;
+    gap: 1rem;
+}
+
+.image-display{
+    margin-bottom: 5rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.image-display h2 {
+    margin: 2em;
+}
+
+.image-display div {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    text-decoration: none;
+    width: 25px;
+}
+figure img {
+    height: 150px;
 }
 
 .hero {
@@ -96,10 +146,27 @@ footer {
 .sociallinks {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 0;
 }
 
 .sociallinks img {
     width: 35px;
     height: 35px;
+}
+.history {
+    display: inline-block;
+    padding: 4rem;
+}
+.history div {
+    display: flex;
+}
+
+.history img {
+    max-width: 250px;
+}
+
+.history h2{
+    padding: 10px;
+    text-align: center;
+    margin: 1em;
 }
