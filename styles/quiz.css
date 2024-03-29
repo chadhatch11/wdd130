@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(231, 16, 52);
+    --secondary-color:rgb(66, 230, 48);
+
+    --primary-color-hover: rgb(44, 48, 65);
+
+    --heading-font:'DM Sans', serif;
+    --paragraph-font:'DM Sans', serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--paragraph-font);
+    border: pink 1px solid;
+    padding: 2rem;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: rgb(199, 235, 247);
+    display: grid;
+}
+
+label {
+    padding-bottom: 0.5rem;
+    color: black;
+}
+
+
+input, select, textarea {
+    font-size: 1.1rem;
+    padding: .5rem;
+}
+
+legend {
+    padding: 0 .5rem;
+    font-size: larger;
+}
+
+.end {
+    text-align: center;
+}
+
+button {
+    background-color: var(--primary-color);
+    padding: .5rem;
+    color:white;
+    border-radius: .5rem;
+    font-size: medium;
+    border: none;
+}
+
+button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.form-grid {
+    display: grid;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.code {
+    background-color: #333;
+    color: #fff;
+    font-size: small;
+    padding: 9px;
+    border-radius: 5px;
+}
+.text-center {
+    padding: .5rem;
+    text-align: center; 
+}
+
+.hint {
+    font-style: italic;
+    color: lightslategray;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.code {
+    background-color: #333;
+    color: #fff;
+    font-size: small;
+    padding: 9px;
+    border-radius: 5px;
+}
