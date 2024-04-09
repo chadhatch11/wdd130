@@ -331,3 +331,239 @@ button:hover {
     justify-content: space-between;
     text-align: center;
 }
+
+
+
+
+
+.call-to-action {
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+    border: var(--accent-color) solid 1px;
+    border-radius: 1px;
+}
+
+.call-to-action h2 {
+    margin-bottom: 2rem;
+}
+
+.call-to-action a {
+    font-weight: bold;
+    font-size: larger;
+    background-color: var(--additional-accent-color);
+    color: var(--primary-color);
+    padding: 10px 3rem;
+    text-decoration: none;
+}
+
+.call-to-action a:hover {
+    font-size: larger;
+    background-color: #5073b5;
+    color: #fff;
+    padding: 10px 3rem;
+    text-decoration: none;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.card {
+    width: 325px;
+    background-color: #f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(153, 144, 144, 0.673);
+    margin: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h3 {
+    margin-bottom: .2rem;
+}
+
+.card-content p {
+    color: #000;
+    font-size: small;
+    line-height: 1.3;
+    padding: 1rem 0;
+}
+
+.card-content a {
+    display: inline-block;
+    color: var(--accent-color);
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: #000 solid 1px;
+    text-decoration: none;
+}
+
+.card-content a:hover {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: #000 solid 1px;
+    text-decoration: none;
+}
+
+/* Table Component */
+.table-component {
+    padding: 2rem 0;
+    width: 75%;
+    margin: auto;
+}
+
+.table-component table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px var(--accent1-color) solid;
+    margin-bottom: 2rem;
+}
+
+.table-component th {
+    color: var(--primary-color);
+    border: solid 2px;
+    padding: 5px;
+}
+
+.table-component td {
+    border: 2px var(--primary-color) solid;
+    padding: 5px;
+}
+
+.table-component thead {
+    background-color: var(--accent2-color);
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 5rem;
+}
+
+.image {
+    object-position: center;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: .25rem;
+}
+
+.content {
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    border-radius: 5px;
+    height: 250px;
+}
+
+/* Newsletter */
+.newsletter {
+    border: 1px rgba(9, 9, 9, 0.294) solid;
+    margin: 0 5rem 5rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.newsletter p {
+    padding: 1rem 0;
+}
+
+.newsletter form {
+    border-style: none;
+    padding:0;
+}
+
+.newsletter label {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: larger;
+    padding-right: .5rem;
+}
+
+.newsletter input {
+    border-style: none;
+    border-bottom: var(--accent1-color) 2px solid;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.newsletter button {
+    color : var(--primary-color);
+}
+
+.margin-3rem {
+    margin: 3rem;
+}
+
+/* full width image */
+.home-hero {
+    position: relative;
+}
+
+.home-hero h1 {
+    position: absolute;
+    padding: 30px;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: xxx-large;
+}
+
+.home-hero p {
+    position: absolute;
+    top: 250px;
+    color:#fff;
+    text-align: center;
+    width: 100%;
+    font-size: larger;
+}
+
+.home-hero img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    float: right;
+    object-fit: cover;
+}
+
+.home-hero a {
+    position: absolute;
+    right: 800px;    
+    top:300px;
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.home-hero a:hover {
+    background-color: #fff;
+    color: var(--accent2-color);
+}
