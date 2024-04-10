@@ -173,7 +173,6 @@ figure img {
     text-align: center;
 }
 
-/* contact us section */
 .contact {
     display: grid;
     padding: 4rem;
@@ -287,7 +286,7 @@ button:hover {
 }
 
 .title-strip h1 {
-    color: var(--accent-color);
+    color: var(--additional-accent-color);
 }
 
 .text-name {
@@ -361,7 +360,6 @@ button:hover {
     text-decoration: none;
 }
 
-/* Cards */
 .card-container {
     display: flex;
     justify-content: center;
@@ -417,7 +415,7 @@ button:hover {
     text-decoration: none;
 }
 
-/* Table Component */
+
 .table-component {
     padding: 2rem 0;
     width: 75%;
