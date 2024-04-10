@@ -283,12 +283,12 @@ button:hover {
 }
 
 .title-strip {
-    background-color: var(--accent2-color);
+    background-color: var(--accent-color);
     padding: 2rem;
 }
 
 .title-strip h1 {
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .text-name {
@@ -331,9 +331,6 @@ button:hover {
     justify-content: space-between;
     text-align: center;
 }
-
-
-
 
 
 .call-to-action {
@@ -457,9 +454,10 @@ button:hover {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    padding: 5rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 30px;
+    justify-content: center;
 }
 
 .image {
@@ -471,13 +469,12 @@ button:hover {
 }
 
 .content {
-    padding: 1rem;
-    background-color: var(--accent2-color);
+    padding: .5rem;
+    background-color: var(--additional-accent-color);
     border-radius: 5px;
-    height: 250px;
+    height: 200px;
 }
 
-/* Newsletter */
 .newsletter {
     border: 1px rgba(9, 9, 9, 0.294) solid;
     margin: 0 5rem 5rem;
@@ -504,7 +501,7 @@ button:hover {
 
 .newsletter input {
     border-style: none;
-    border-bottom: var(--accent1-color) 2px solid;
+    border-bottom: #000 2px solid;
     width: 100%;
     margin-bottom:10px;
 }
@@ -517,7 +514,6 @@ button:hover {
     margin: 3rem;
 }
 
-/* full width image */
 .home-hero {
     position: relative;
 }
@@ -528,14 +524,14 @@ button:hover {
     top: 150px;
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: #000;
     font-size: xxx-large;
 }
 
 .home-hero p {
     position: absolute;
-    top: 250px;
-    color:#fff;
+    top: 275px;
+    color:#000;
     text-align: center;
     width: 100%;
     font-size: larger;
@@ -551,10 +547,10 @@ button:hover {
 
 .home-hero a {
     position: absolute;
-    right: 800px;    
-    top:300px;
-    color: var(--accent1-color);
-    background-color: var(--accent2-color);
+    right: 900px;    
+    top:350px;
+    color: var(--additional-accent-color);
+    background-color: var(--primary-color);
     padding: 1rem 2rem;
     border-radius: 50px;
     margin-top: 2rem;
@@ -564,6 +560,6 @@ button:hover {
 }
 
 .home-hero a:hover {
-    background-color: #fff;
-    color: var(--accent2-color);
+    background-color: #ffffff14;
+    color: #5073b5;
 }
